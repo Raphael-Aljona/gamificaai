@@ -1,0 +1,212 @@
+/* Utilizando fontes especificas */
+@font-face{
+    font-family: 'Montserrat';
+    src: url(fonts/Montserrat/Montserrat-VariableFont_wght.ttf);
+}
+
+:root {
+    --roxo-gamifica: #47208b;
+    --laranja-gamifica: #f06638;
+}
+
+
+/* Reset de CSS básico - limpa configurações padrão que atrapalham */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.container-grid {
+    width: 80%;
+    max-width: 1400px;
+    
+    /* margin: 30px:espaçamento em torno do elemento*/
+    /* margin: 0px 30px:espaçamento 0px vertical e 30 px horizontal*/
+    /* margin: 0px 30px 10px:espaçamento 0px para cima e 30 px horizontal e 10px para baixo*/
+    /* margin: 0px 30px 10px 20px:espaçamento 0px para cima e 30 px horizontal e 10px para baixo e 20px para esquerda*/
+    /* margin: 0 auto - serve para centralizar o bloco */
+    margin: 0 auto;
+}
+
+/* Seletores - seleciona elementos para estilizar */
+/* Seleciona todos os elementos com a tag (nome do elemento, ex: "div") */
+/* Seletor por classe - Seleciona todas os elementos com a classe mencionada (ex: <div class=banner>)*/
+
+.banner {
+    /* vh é uma porcentagem da altura da viewport (janela) */
+    height: 100vh;
+    /* url, slc, href são caminhos para algo -- cssgradient.io é o site que faz degradê automaticamente */
+    background-image: linear-gradient(90deg, rgba(53,24,104,1) 0%, rgba(53,24,104,0.8) 100%) ,url(img/bg-room.png);
+    background-repeat: no-repeat;
+    background-position: 165% 40%;
+}
+/* css-tricks.com -- muito bom para pegar elementos css */
+header {
+    height: 165px;
+
+
+}
+
+header div.container-grid {
+    /* % é uma unidade relativa ao elemento pai */
+    height: 100%;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header img {
+    width: 290px;
+}
+
+.menu {
+    width: 700px;
+
+    display: flex;
+    justify-content: space-between;
+}
+
+.menu a {
+    color: white;
+
+    font-family: 'Anta';
+    font-size: 20px;
+
+    text-decoration: underline transparent;
+    text-decoration-thickness: 2px;
+
+    transition: text-decoration 1000ms ease;
+}
+
+.menu :hover {
+    text-decoration-color: white;
+    
+}
+
+.conteudo-banner {
+    /* altura deve ser 100vh - altura do header */
+    /* nesse caso foi feita -280px, pois fica mais cria */
+    height: calc(100vh - 280px);
+    display: flex;
+    align-items: center;
+
+}
+
+.conteudo-banner p {
+    font-family: 'Anta';
+    font-size: 32px;
+
+    color: white;
+}
+
+#sobre {
+    height: 800px;
+    display: flex; 
+
+    flex-direction: column;
+    justify-content: space-between;
+
+    text-align: center;
+    padding: 100px 25%;
+}
+
+h2 {
+    font-family: 'Anta';
+    font-size: 28px;
+}
+
+#sobre p {
+    font-family: 'Montserrat';
+    font-size: 17px;
+
+    text-align: left;
+}
+
+#cases {
+    text-align: center;
+
+    padding-bottom: 100px;
+    margin-bottom: 100px;
+}
+
+#cases h2 {
+    margin-bottom: 70px;
+}
+
+.container-cards{
+    width: 100%;
+
+    display: flex;
+    justify-content: space-between;
+}
+
+.card  {
+    height: 400px;
+    width: 250px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+
+    background-color: var(--roxo-gamifica);
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+    border-radius: 4px;
+
+    box-shadow: 5px 5px 10px 0px rgba(0, 0, 0, 0.5);
+}
+
+.card img {
+    height: 55%;
+    width: 100%;
+
+    /* border-radius: 4px 4px 0 0; */
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+
+
+}   
+
+.card p {
+    text-align: left;
+
+    font-family: 'Montserrat';
+    font-size: 16px;
+
+    color: white;
+
+    padding: 7%;
+}
+
+.card button {
+    width: 90%;
+    height: 40px;
+
+    background-color: var(--laranja-gamifica);
+    
+    border-radius: 4px;
+    border: none;
+
+    color: white;
+
+    font-family: 'Montserrat';
+    font-size: 17px;
+    font-weight: 600;
+
+    cursor: pointer;
+    transition: background-color 500ms;
+}
+
+/* :hover - só acontece se passar o mouse, feito de forma separada */
+.card button:hover{
+    background-color: #ad4929;
+}
+
+
