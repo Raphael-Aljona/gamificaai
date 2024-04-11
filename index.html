@@ -37,7 +37,7 @@
             <P> GamificaAi: Inovação através da Diversão!</P>
         </div>
     </div>
-
+    <!-- section, só pode ter 1, e class podem ter varias ao longo da sua pagina e podendo ser reaproveitado -->
     <section id="sobre">
         <h2>Sobre nossa empresa</h2>
         <!-- shift+alt+seta pra baixo / duplica linhas -->
@@ -81,5 +81,25 @@
         </div>
     </section>
 
+    <section id="contato">
+        <h2>Contate-nos</h2>
+        
+        <form>
+            <div class="campo">
+                <label for="campo-nome">Qual é o seu nome?</label>
+                <input id="campo-nome" type="text" placeholder="Digite seu nome">
+            </div>
+            <div class="campo">
+                <label for="campo-email">Em qual email podemos te responder?</label>
+                <input id="campo-email" type="email" placeholder="Digite seu email">
+            </div>
+            <div class="campo-textarea">
+                <label for="campo-textarea">Descreva um pouco da sua empresa e também o problema que está procurando solucionar.</label>
+                <textarea id="campo-textarea" name="" id="" cols="30" rows="10" placeholder="Descreva um pouco da sua empresa e também o problema que ela enfrenta"></textarea>
+            </div>
+            <button type="submit">Enviar</button>
+        </form>
+    </section>
+        
 </body>
 </html>
