@@ -162,7 +162,7 @@ h2 {
 #sobre p {
     font-family: 'Montserrat';
     font-size: 17px;
-
+    
     text-align: left;
 }
 
@@ -170,7 +170,7 @@ h2 {
     text-align: center;
 
     padding-bottom: 100px;
-    margin-bottom: 100px;
+    margin-bottom: 100px;   
 }
 
 #cases h2 {
@@ -473,6 +473,14 @@ footer .redes-sociais {
 
 .icones-redes a:hover {
     color: var(--laranja-gamifica);
+}
+
+.menu-fechado {
+    display: none;
+}
+
+#icone-barras {
+    display: none;
 }
 
 @media only screen and (max-width:1300px) {
