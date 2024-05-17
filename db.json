@@ -2,19 +2,23 @@
   "cases": [
     {
       "imagem": "https://unsplash.it/600/400?image=13",
-      "descricao": "uma empresa de tecnologia lança um desafio de gamificação onde os funcionarios devem propor e implementar ideias inovadoras"
+      "descricao": "uma empresa de tecnologia lança um desafio de gamificação onde os funcionarios devem propor e implementar ideias inovadoras",
+      "id": "d1bc"
     },
     {
       "imagem": "https://unsplash.it/600/400?image=21",
-      "descricao": "Uma empresa de consultoria cria uma narrativa interativa de gamificação para seu programa de treinamneto"
+      "descricao": "Uma empresa de consultoria cria uma narrativa interativa de gamificação para seu programa de treinamneto",
+      "id": "1e8d"
     },
     {
       "imagem": "https://unsplash.it/600/400?image=32",
-      "descricao": "Uma empresa de vendas implementa uma competição gamificada entre equipes que competem pelo topo do ranking"
+      "descricao": "Uma empresa de vendas implementa uma competição gamificada entre equipes que competem pelo topo do ranking",
+      "id": "61e2"
     },
     {
       "imagem": "https://unsplash.it/600/400?image=46",
-      "descricao": "Uma empresa de saúde promove o bem-estar dos funcionarios através de um desafio de gamificação de condicionamento"
+      "descricao": "Uma empresa de saúde promove o bem-estar dos funcionarios através de um desafio de gamificação de condicionamento",
+      "id": "9bfb"
     }
   ],
   "solicitacoes": [
@@ -23,6 +27,24 @@
       "nome": "",
       "email": "",
       "descricao": ""
+    },
+    {
+      "id": "371d",
+      "nome": "Raphael",
+      "email": "raphael.aljona@gmail.com",
+      "descricao": "asasdasdadadas-"
+    },
+    {
+      "id": "a440",
+      "nome": "raphael",
+      "email": "raphael.aljona@gmail.com",
+      "descricao": "ola eu sou raphael"
+    },
+    {
+      "id": "4fb1",
+      "nome": "podasapodapodsa",
+      "email": "oi@gmail.com",
+      "descricao": "asdasdasda"
     }
   ]
 }
